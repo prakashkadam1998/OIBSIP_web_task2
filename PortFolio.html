@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prakash Kadam | .NET Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-dancing {
+      font-family: 'Dancing Script', cursive;
+    }
+
+    .font-twinkle {
+      font-family: 'Twinkle Star', cursive;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0
+      }
+
+      to {
+        width: 22ch
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent
+      }
+    }
+
+    .typing {
+      animation: typing 4s steps(40, end) infinite alternate,
+        blink .7s step-end infinite;
+    }
+
+    .marquee {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .marquee-content {
+      display: inline-block;
+      animation: marquee 20s linear infinite;
+    }
+
+    @keyframes marquee {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+
+  <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+    <div class=" mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="font-bold font-twinkle text-indigo-600 text-4xl">Prakash</h1>
+      <ul class="flex space-x-6 text-gray-700 font-medium  text-2xl">
+        <li><a href="#about" class="relative no-underline text-gray-400 font-medium transition-colors duration-300 
+         hover:text-indigo-600
+         after:content-[''] after:absolute after:left-0 after:-bottom-1 
+         after:w-full after:h-[2px] 
+         after:bg-gradient-to-r after:from-indigo-500 after:to-pink-500 
+         after:origin-center after:scale-x-0 after:transition-transform after:duration-300 
+         hover:after:scale-x-100">About</a></li>
+        <li><a href="#skills" class="relative no-underline text-gray-400 font-medium transition-colors duration-300 
+         hover:text-indigo-600
+         after:content-[''] after:absolute after:left-0 after:-bottom-1 
+         after:w-full after:h-[2px] 
+         after:bg-gradient-to-r after:from-indigo-500 after:to-pink-500 
+         after:origin-center after:scale-x-0 after:transition-transform after:duration-300 
+         hover:after:scale-x-100">Skills</a></li>
+        <li><a href="#projects" class="relative no-underline text-gray-400 font-medium transition-colors duration-300 
+         hover:text-indigo-600
+         after:content-[''] after:absolute after:left-0 after:-bottom-1 
+         after:w-full after:h-[2px] 
+         after:bg-gradient-to-r after:from-indigo-500 after:to-pink-500 
+         after:origin-center after:scale-x-0 after:transition-transform after:duration-300 
+         hover:after:scale-x-100">Projects</a></li>
+        <li><a href="#contacts" class="relative no-underline text-gray-400 font-medium transition-colors duration-300 
+         hover:text-indigo-600
+         after:content-[''] after:absolute after:left-0 after:-bottom-1 
+         after:w-full after:h-[2px] 
+         after:bg-gradient-to-r after:from-indigo-500 after:to-pink-500 
+         after:origin-center after:scale-x-0 after:transition-transform after:duration-300 
+         hover:after:scale-x-100">Conatacts</a></li>
+      </ul>
+      <span><a
+          class="px-6 py-2 bg-fuchsia-600 text-white rounded-xl text-2xl shadow hover:bg-orange-100 hover:text-fuchsia-600 hover:shadow-[0_0_20px_4px_rgba(217,70,239,0.5)] transition hover:cursor-pointer"><i
+            class="ri-file-download-line"></i> Resume</a></span>
+    </div>
+  </nav>
+
+
+  <section class="bg-gray-100 w-full h-screen flex items-center justify-center" id="hero">
+    <div class='flex flex-row w-full h-full text-start p-9'>
+      <div class='w-1/2 flex items-end'>
+        <div>
+          <h2 class="text-4xl md:text-7xl font-bold text-gray-800 mb-4">Hi, I'm Prakash 👋</h2>
+          <p class="text-lg md:text-3xl text-gray-600 mb-6">Creating innovative solutions that bridge the gap between
+            cutting-edge technology and real-world applications.</p>
+          <h2 class="text-2xl md:text-2xl font-bold text-indigo-600 
+               border-r-2 border-indigo-600 overflow-hidden whitespace-nowrap typing">
+            Full Stack <span class='text-purple-600'>.Net</span> Developer</h2>
+          <div class='mt-6'>
+            <a href="#projects" class="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700">View My
+              Work</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 flex flex-col items-center justify-center">
+        <div class="flex w-full flex-col items-center justify-end ps-32">
+          <div class="relative w-80 h-80 mb-6">
+            <img src="/Profile.jpg" alt="Profile"
+              class="w-full h-full rounded-full object-cover shadow-lg ring-2 ring-slate-300 ring-offset-8 ring-offset-gray-100 hover:ring-4" />
+          </div>
+
+
+          <div class="flex gap-6 m-2">
+            <div
+              class="bg-white shadow-lg border border-fuchsia-500 rounded-xl px-6 py-4 text-center hover:shadow-[0_0_20px_4px_rgba(217,70,239,0.5)] transition">
+              <h3 class="text-2xl font-bold text-indigo-600" class="experience">1.7+</h3>
+              <p class="text-gray-600 font-medium">Years Experience</p>
+            </div>
+
+            <div
+              class="bg-white shadow-lg border border-fuchsia-500 rounded-xl px-6 py-4 text-center hover:shadow-[0_0_20px_4px_rgba(217,70,239,0.5)] transition">
+              <h3 class="text-2xl font-bold text-indigo-600">4+</h3>
+              <p class="text-gray-600 font-medium">Projects Completed</p>
+            </div>
+          </div>
+
+          <div class="w-5/6 overflow-hidden bg-gray-100 py-4">
+            <div class="marquee">
+              <div class="marquee-content">
+                <span class="mx-6 text-lg font-semibold text-indigo-600">.Net</span>
+                <span class="mx-6 text-lg font-semibold text-green-600">C#</span>
+                <span class="mx-6 text-lg font-semibold text-rose-600">ASP.NET Core</span>
+                <span class="mx-6 text-lg font-semibold text-yellow-600">Entity Framework</span>
+                <span class="mx-6 text-lg font-semibold text-indigo-700">SQL Server</span>
+                <span class="mx-6 text-lg font-semibold text-purple-600">React.js</span>
+                <span class="mx-6 text-lg font-semibold text-pink-600">HTML</span>
+                <span class="mx-6 text-lg font-semibold text-blue-600">CSS</span>
+
+
+                <span class="mx-6 text-lg font-semibold text-indigo-600">.Net</span>
+                <span class="mx-6 text-lg font-semibold text-green-600">C#</span>
+                <span class="mx-6 text-lg font-semibold text-rose-600">ASP.NET Core</span>
+                <span class="mx-6 text-lg font-semibold text-yellow-600">Entity Framework</span>
+                <span class="mx-6 text-lg font-semibold text-indigo-700">SQL Server</span>
+                <span class="mx-6 text-lg font-semibold text-purple-600">React.js</span>
+                <span class="mx-6 text-lg font-semibold text-pink-600">HTML</span>
+                <span class="mx-6 text-lg font-semibold text-blue-600">CSS</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="max-w-5xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-gray-800 mb-6">About Me</h3>
+    <p class="text-lg text-gray-600 leading-relaxed">
+      I’m a passionate <span class="font-semibold">.NET Developer</span> with <span class="experience">1.7+</span> years
+      of experience building scalable,
+      secure, and efficient web applications. I specialize in C#, ASP.NET Core, Entity Framework, and SQL Server.
+      I love solving problems and writing clean, maintainable code.
+    </p>
+  </section>
+
+
+  <section id="skills" class="bg-gray-100 py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-gray-800 mb-8">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="p-4 bg-white shadow rounded-lg">C#</div>
+        <div class="p-4 bg-white shadow rounded-lg">ASP.NET Core</div>
+        <div class="p-4 bg-white shadow rounded-lg">Entity Framework</div>
+        <div class="p-4 bg-white shadow rounded-lg">SQL Server</div>
+        <div class="p-4 bg-white shadow rounded-lg">REST APIs</div>
+        <div class="p-4 bg-white shadow rounded-lg">JavaScript</div>
+        <div class="p-4 bg-white shadow rounded-lg">HTML / CSS</div>
+        <div class="p-4 bg-white shadow rounded-lg">Git & GitHub</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-gray-800 mb-8">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold mb-2">Inventory Management System</h4>
+        <p class="text-gray-600 mb-4">Built with ASP.NET Core and SQL Server, featuring authentication, reporting, and
+          role-based access.</p>
+        <a href="#" class="text-indigo-600 font-medium hover:underline">View Project →</a>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold mb-2">E-commerce Website</h4>
+        <p class="text-gray-600 mb-4">Developed using ASP.NET Core Web API and integrated with React frontend.</p>
+        <a href="#" class="text-indigo-600 font-medium hover:underline">View Project →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h3>
+      <p class="text-lg text-gray-600 mb-8">I’m open to new opportunities and collaborations.</p>
+      <a href="mailto:your.email@example.com"
+        class="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700">📩 Contact Me</a>
+    </div>
+  </section>
+
+  <footer class="bg-white shadow-inner py-6 text-center text-gray-600">
+    © 2025 Prakash Kadam. All Rights Reserved.
+  </footer>
+
+</body>
+<script>
+  function calculateExperience(startDate) {
+    const start = new Date(startDate);
+    const now = new Date();
+    const diffMs = now - start;
+    const years = diffMs / (1000 * 60 * 60 * 24 * 365);
+    return years.toFixed(1);
+  }
+  const exp = calculateExperience("2023-12-21");
+  document.querySelectorAll(".experience").forEach(el => { el.textContent = exp + "+" });
+</script>
+
+</html>
