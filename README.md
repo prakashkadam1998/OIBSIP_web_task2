@@ -1,23 +1,33 @@
 # OIBSIP_web_task2
 Web Developement for Portfolio
-# Landing Page Project 
 
-A simple and responsive **Landing Page** built using **HTML** and **Tailwind CSS**.  
-This project is great for beginners learning web development fundamentals like layouts, sections, alignment, and responsive design.
+# 👨‍💻 Personal Portfolio Website
 
----
-
-## Features
-- Responsive layout using Tailwind CSS
-- Header, footer, and multiple sections
-- Well-structured design with padding, spacing, and alignment
-- Beginner-friendly code for practice
-- Easy to customize with your own colors, text, and images
+A simple **Personal Portfolio Website** built using **HTML** and **CSS**.  
+This project is perfect for beginners to practice building a professional web presence while learning about layouts, styling, and structuring content.
 
 ---
 
-## Tech Stack
+## ✨ Features
+- Clean and responsive design
+- Introduction section with profile image
+- Contact information section
+- Resume link / section to showcase experience
+- Sections for projects, skills, and samples
+- Beginner-friendly code that’s easy to customize
+
+---
+
+## 🛠️ Tech Stack
 - **HTML5**
-- **Tailwind CSS**
+- **CSS3**
 
 ---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/personal-portfolio.git
+cd personal-portfolio
+
