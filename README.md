@@ -3,7 +3,7 @@ Web Developement for Portfolio
 
 # 👨‍💻 Personal Portfolio Website
 
-A simple **Personal Portfolio Website** built using **HTML** and **CSS**.  
+A simple **Personal Portfolio Website** built using **HTML** and **Tailwind CSS**.  
 This project is perfect for beginners to practice building a professional web presence while learning about layouts, styling, and structuring content.
 
 ---
@@ -20,14 +20,6 @@ This project is perfect for beginners to practice building a professional web pr
 
 ## 🛠️ Tech Stack
 - **HTML5**
+- **Tailwind CSS3**
 - **CSS3**
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/personal-portfolio.git
-cd personal-portfolio
 
